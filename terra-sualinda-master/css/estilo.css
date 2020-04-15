@@ -1,0 +1,91 @@
+body{
+    font-size: 12px;
+    font-family: Helvetica Neue, Helvetica, Arial ou serif;
+    color: #444;
+}
+
+#container{
+    max-width: 1128px;
+}
+
+a{
+    color: #00ccff;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+p{
+    font-size: 20px;
+}
+
+#cabecalho{
+    width: 100%;
+    height: 48px;
+}
+
+#logo{
+    float: left;
+}
+
+#menu ul {
+    float: right;
+    list-style:none;
+    font-size: 30px;
+    margin-left: 24px;
+    margin-top: 12px;
+}
+
+#menu ul li { display: inline; }
+
+#menu ul li a {
+    text-decoration: none;
+}
+
+li a {
+    font-size: 20px;
+    color: #999
+}
+
+
+#box{
+    padding: 30px 48px 30px 48px;
+    top: 180px;
+    position: absolute;
+    background-color: rgba(0,0,0,0.6);
+    width: 480px;
+
+}
+
+#box p{
+    font-size: 20px;
+    color: #fff;
+}
+
+h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 48px;
+    font-weight: 200;
+    color: #fff
+}
+
+
+#rodape{
+    height: 100%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    float: left;
+    font-size: 30px;
+}
+
+#rodape p{
+    margin-bottom: 0px;
+}
+
+small{
+    font-size: 18px
+}
+
+footer a{
+    font-size: 15px;
+}
