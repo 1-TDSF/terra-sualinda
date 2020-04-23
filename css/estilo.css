@@ -37,11 +37,52 @@ p{
 a:HOVER{
   text-decoration: underline;
 }
-/**/
-/**/
-/**/
-/**/
-/**/
+/*Para todas as imagensdetermine os seguintes estilos:
+|Largura máxima de 100%;
+*/
+img{
+  max-width: 100%;
+}
+/*Para a classe cabecalho determine os seguintes estilos:
+| Largura de 100%.
+| Altura de 48px.
+|Margem do topo de 40px.
+| Margem do rodapé de 40px.
+*/
+.cabecalho{
+  width: 100%;
+  height: 48px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+/*Para a classe logo determine os seguintes estilos:
+| Faça o elemento flutuar para a esquerda.
+*/
+.logo{
+  float: left;
+}
+/*Para a classe menu determine os seguintes estilos:
+| Faça o elemento flutuar para a direita.
+*/
+.menu{
+  float: right;
+}
+/*Para os items da lista determine os seguintes estilos:
+| Faça com que a lista flutue para a direita.
+| Coloque os itens em linha.
+| Tamanho do texto 14px.
+| Margem esquerda 24px;
+| Margem topo 12px;
+| Retire o estilo de lista.
+*/
+.menu ul li{
+  float: right;
+  display: inline;
+  font-size: 14px;
+  margin-left: 24px;
+  margin-top: 12px;
+  list-style: none;
+}
 /**/
 /**/
 /**/
