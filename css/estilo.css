@@ -83,7 +83,53 @@ img{
   margin-top: 12px;
   list-style: none;
 }
-/**/
+/*
+Para os hyperlinks dos itens da lista determine os seguintes estilos.
+| coloque a fonte do texto em 20px.
+| coloque a cor do texto como #999.
+*/
+.menu li a{
+  font-size: 20px;
+  color: #999;
+}
+/*
+●Para a classe banner determine os seguintes estilos:
+| Altura 450px.
+| Margem rodapé 55px.
+| Posição relativa.
+*/
+.banner{
+  height: 450px;
+  margin-bottom: 55px;
+  position: relative;
+}
+/*
+●Para a classe box determine os seguintes estilos:
+| Largura 480px.
+| Preenchimento superior e inferior de 30px e direito e esquerdo de 48px.
+| Posição absoluta.
+| Posiçãotop 180px;
+| Fundo com cor rgba(0,0,0,0.6), utilize o sistema de cores numérico RGBA.
+*/
+.box{
+  width: 480px;
+  padding: 30px 48px;
+  position: absolute;
+  top:180px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+/*
+●Para os parágrafos descendentes de box determine os seguintes estilos:
+| Tamanho do texto em 20px.
+| Cor do texto #fff.
+*/
+.box a{
+  font-size: 20px;
+  color: #fff;
+}
+
+
+
 /**/
 /**/
 /**/
