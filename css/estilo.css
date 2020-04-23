@@ -1,0 +1,65 @@
+@charset "UTF-8";
+/*Para o body determine os seguintes estilos:
+|Tamanho do texto em 12px .
+|Familia da fonte -Helvetica Neue, Helvetica, Arial ou sem serifa.
+|Cor do texto #444
+*/
+body{
+  font-size: 12px;
+  font-family: 'Helvetica Neue', 'Helvetica', Arial, sans-serif;
+  color: #444;
+}
+/*Para a classe container determine os seguintes estilos:
+|Largura máxima de 1128px.
+*/
+.container{
+  max-width: 1128;
+}
+/*Para todos os elementos <a> determine os seguintes estilos:
+|Cordo texto #00ccff.
+|Retire o estilo de hyperlink de todos os elementos.
+|Tamanho do texto em 12px
+*/
+a{
+  color: #00ccff;
+  text-decoration: none;
+  font-size: 12px;
+}
+/*Para todos os parágrafos determine os seguintes estilos:
+|Tamanho do texto 20px.
+*/
+p{
+  font-size: 20px;
+}
+/*Para todos os elementos <a>determine os seguintes estilos:
+|Determine que ao passar o mouse os hyperlinks tenham sua decoração alterada para underline.
+*/
+a:HOVER{
+  text-decoration: underline;
+}
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
+/**/
