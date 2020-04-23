@@ -13,7 +13,7 @@ body{
 |Largura máxima de 1128px.
 */
 .container{
-  max-width: 1128;
+  max-width: 1128px;
 }
 /*Para todos os elementos <a> determine os seguintes estilos:
 |Cordo texto #00ccff.
@@ -114,6 +114,7 @@ Para os hyperlinks dos itens da lista determine os seguintes estilos.
 .box{
   width: 480px;
   padding: 30px 48px;
+  height: 200px;
   position: absolute;
   top:180px;
   background-color: rgba(0, 0, 0, 0.6);
@@ -123,30 +124,56 @@ Para os hyperlinks dos itens da lista determine os seguintes estilos.
 | Tamanho do texto em 20px.
 | Cor do texto #fff.
 */
-.box a{
+.box p{
   font-size: 20px;
   color: #fff;
 }
 
+/*Para o elemento <h1>determine os seguintes estilos:
+| Margem topo 0.
+| Margem rodapé 0.
+| Margem
+| Tamanho do texto 48px.
+| Espessura da fonte de 200.
+| Cor do texto #fff.
+*/
+.box h1{
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 48px;
+  font-weight: 200;
+  color: #fff;
+}
+/*Para a classe rodape determine os seguintes estilos:
+| Largura 100%.
+| Margem topo 30px.
+| Margem rodapé 30px.
+| Faça o elemento flutuar para a esquerda.
+| Tamanho do texto em 30px;
+*/
+.rodape{
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  float: left;
+  font-size: 30px;
 
-
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
-/**/
+}
+/*Para os parágrafos descendentes da classe rodape determine os seguintes estilos:
+| Margem rodapé 0.
+*/
+.rodape p{
+  margin-bottom: 0px;
+}
+/*Para os smalltag descendentes da classe rodape determine os seguintes estilos:
+| Tamanho do texto em 18px.
+*/
+.rodape small{
+  font-size: 18px;
+}
+/*Para os hyperlinks descendentes da classe footer determine os seguintes estilos:
+| Tamanho do texto em 15px.
+*/
+.rodape a{
+  font-size: 15px;
+}
